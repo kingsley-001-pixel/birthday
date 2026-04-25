@@ -7,14 +7,22 @@ import { Heart } from "lucide-react";
 // =======================
 // 🔧 CUSTOMIZE THIS PART
 // =======================
-const HER_NAME = "Confi"; 
+const HER_NAME = "Ruby"; 
 
 const PHOTOS = [
-  "/photo1.jpg",
-  "/photo2.jpg",
+  "/one.jpeg",
+  "/two.jpeg",
+  "/three.jpeg",
+  "/four.jpeg",
+  "/five.jpeg",
+  "/six.jpeg",
+  "/seven.jpeg",
 ];
 
-const message = `Happy Birthday ${HER_NAME} ❤️\n\nI won’t even lie… from the moment you came into my life, things just changed. You make everything feel softer, calmer, and better.\n\nIt’s not just that you’re beautiful… it’s your energy, your smile, the way you carry yourself. You’re different, and I love that.\n\nI might not have everything right now, but one thing I’m sure of is you mean a lot to me… and I’m not playing about you.\n\nEnjoy your day, my girl 🤍`;
+const message = `Hey ${HER_NAME}, First of all... I owe you a serious apology 😅. I completely missed your birthday and I won't even try to defend myself because there's no really god excuse. My brain just decided to go on leave at the wrong time.
+But genuinely, I'm sorry. You didn't deserve to be forgotten like that, especially on yur day. I hpe it was still really fun and that you were surrounded by people who made you smile (as you should be).
+Even though I'm late(very late 😭), happy birthday. I wish you more happiness, peace, and everything good that life can offer.You're someone worth celebrating whether I remembered on time or not.
+I'll make it up to you... somehow. I dn't know how yet, but I will - this is me holding myself accountable now - King 🤍 Ruby`;
 
 export default function BirthdayPage() {
   const [open, setOpen] = useState(false);
