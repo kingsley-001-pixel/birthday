@@ -1,23 +1,24 @@
 import { useState, useEffect } from "react";
 
-const HER_NAME = "Confi";
+const HER_NAME = "Ruby";
 
 const slides = [
-  "/photo1.jpeg",
-  "/photo2.jpeg",
-  "/photo3.jpeg",
-  "/photo4.jpeg",
+  "/one.jpeg",
+  "/two.jpeg",
+  "/three.jpeg",
+  "/four.jpeg",
+  "/five.jpeg",
+  "/six.jpeg",
+  "/seven.jpeg",
 ];
 
-const message = `Happy Birthday ${HER_NAME} ❤️
+const message = `Hey ${HER_NAME}, First of all... I owe you a serious apology 😅. I completely missed your birthday and I won't even try to defend myself because there's no really good excuse. My brain just decided to go on leave at the wrong time.
 
-I won’t even lie… from the moment you came into my life, things just changed. You make everything feel softer, calmer, and better.
+But genuinely, I'm sorry. You didn't deserve to be forgotten like that, especially on your day. I hope it was still really fun and that you were surrounded by people who made you smile (as you should be).
 
-It’s not just that you’re beautiful… it’s your energy, your smile, the way you carry yourself.
+Even though I'm late(very late 😭), happy birthday. I wish you more happiness, peace, and everything good that life can offer.You're someone worth celebrating whether I remembered on time or not.
 
-I might not have everything right now, but one thing I’m sure of is you mean a lot to me… and I’m not playing about you.
-
-Enjoy your day, my girl 🤍`;
+I'll make it up to you... somehow. I dn't know how yet, but I will - this is me holding myself accountable now - King 🤍 Ruby`;
 
 export default function BirthdayPage() {
   const [open, setOpen] = useState(false);
